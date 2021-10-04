@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export const dailyinfo = () => {
-  const lat = -15.6123;
-  const long = -56.0946;
+export const dailyinfo = (latitude: number, longitude: number) => {
+  const lat = latitude;
+  const long = longitude;
   const startDay = 20200101;
   const endDay = 20200130;
 
